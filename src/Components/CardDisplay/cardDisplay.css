@@ -1,0 +1,52 @@
+.card-display-continer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 20rem;
+  max-width: 24rem;
+  flex: 1;
+  flex-shrink: 0;
+}
+.card-display-title-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+}
+.card-display-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card-display-title-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-display-title-num {
+  color: #6e7279;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-display-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}

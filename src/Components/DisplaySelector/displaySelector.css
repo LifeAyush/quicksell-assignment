@@ -1,0 +1,102 @@
+.displaySelector-container {
+  position: relative;
+}
+.displaySelector-button {
+  display: flex;
+  padding: 4px 6px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid #ababab;
+  background: #fff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.displaySelector-button-text {
+  color: #242424;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.displaySelector-dropdown {
+  position: absolute;
+  top: 34px;
+  display: inline-flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #ababab;
+  z-index: 1;
+  background: #fbfbfb;
+}
+.displaySelector-dropdown-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 14rem;
+}
+.displaySelector-dropdown-option-label {
+  color: #777d87;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.displaySelector-dropdown-option-button-container {
+  position: relative;
+  width: 6rem;
+}
+.displaySelector-dropdown-option-button {
+  display: flex;
+  padding: 4px 6px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #ababab;
+  background: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+.displaySelector-dropdown-option-button-text {
+  color: #565656;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.displaySelector-dropdown-option-selector {
+  position: absolute;
+  top: 32px;
+  display: inline-flex;
+  padding: 6px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 86%;
+  border-radius: 6px;
+  border: 1px solid #ababab;
+  background: #fff;
+  z-index: 2;
+}
+.displaySelector-dropdown-option-selector-text {
+  color: #565656;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #fff;
+  cursor: pointer;
+  width: calc(100% - 12px);
+  padding: 0px 6px;
+}
+.displaySelector-dropdown-option-selector-text:hover {
+  background: #f4f5f8;
+}
